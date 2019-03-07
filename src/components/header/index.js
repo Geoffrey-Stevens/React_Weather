@@ -21,6 +21,9 @@ class Header extends Component {
               <li className="nav-item">
                 <NavLink className="nav-link" to="./Sample">Sample</NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="./f1">F1</NavLink>
+              </li>
             </ul>
           </div>
         </nav>
