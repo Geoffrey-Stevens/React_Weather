@@ -1,5 +1,5 @@
 body{
-  background: linear-gradient(-90deg, red, orange);
+  background: radial-gradient(90deg, red, orange);
 }
 .container {
   margin-top: 50px;

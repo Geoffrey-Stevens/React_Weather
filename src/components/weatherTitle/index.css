@@ -1,7 +1,11 @@
 .WeatherTitle {
   text-align: center;
+  margin: 10px;
   padding-top: 25vh;
   color: #fff;
-  height: 75vh;
+  height: 100vh;
+  border: 2px solid gray;
+  padding: 10px;
+  border-radius: 10%;
   background-image: url('../../media/images/bg.jpg');
 }

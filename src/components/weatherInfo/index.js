@@ -19,7 +19,9 @@ class WeatherInfo extends Component {
             <div>
               <h3>City: {this.props.data.name}</h3>
               <h3>Country: {this.props.data.sys.country}</h3>
-              <h3>Temperature: {this.convertDeg(this.props.data.main.temp)}&deg;</h3>
+              <h3>Current Temperature: {this.convertDeg(this.props.data.main.temp)}&deg;</h3>
+              <h3>Temperature Range:<br/>
+              {this.convertDeg(this.props.data.main.temp_min)}&deg; - {this.convertDeg(this.props.data.main.temp_max)}&deg;</h3>
               <h3>Humidity: {this.props.data.main.humidity}%</h3>
               <h3>Description: {this.props.data.weather[0].description}</h3>
             </div>

@@ -16,14 +16,9 @@ class Header extends Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
-                <NavLink className="nav-link" to="/">Home <span className="sr-only">(current)</span></NavLink>
+                <NavLink className="nav-link" to="/">Data Source<span className="sr-only">(current)</span></NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="./Sample">Sample</NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="./f1">F1</NavLink>
-              </li>
+
             </ul>
           </div>
         </nav>

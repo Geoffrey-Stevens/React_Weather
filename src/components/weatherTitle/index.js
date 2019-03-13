@@ -7,7 +7,8 @@ class WeatherTitle extends Component {
   render() {
     return (
       <div className="WeatherTitle">
-        <h1> Check the Weather!</h1>
+        <h1> Enter the city <br/> and country <br/> to check the <br/> local weather!<br/><br/>
+        e.g.(Boston US)</h1>
       </div>
     );
   }
